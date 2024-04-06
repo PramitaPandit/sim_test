@@ -1,0 +1,417 @@
+version 3
+run Rayleigh-0-20240319-19:47:17-2933479
+attr configname Rayleigh
+attr datetime 20240319-19:47:17
+attr datetimef 20240319-194717
+attr experiment Rayleigh
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network my_simulation.simulations.My_simulation_network
+attr processid 2933479
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config image-path ../../../omnetpp-6.0.2/samples/inet4.5/images
+config **.RayleighChannel.alpha 2
+config **.RayleighChannel.systemLoss 0dB
+config network my_simulation.simulations.My_simulation_network
+config *.OBN.distance 100cm
+config *.Hub_1.distance 50cm
+config *.Hub_2.distance 70cm
+config *.Hub_3.distance 90cm
+config *.Node_11.distance 20cm
+config *.Node_12.distance 40cm
+config *.Node_21.distance 60cm
+config *.Node_22.distance 80cm
+config *.Node_31.distance 100cm
+config *.Node_32.distance 120cm
+
+par My_simulation_network.OBN.output_gate[0].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.OBN.output_gate[0].channel disabled false
+attr mutable ""
+par My_simulation_network.OBN.output_gate[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.OBN.output_gate[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.OBN.output_gate[0].channel ber 0
+attr mutable ""
+par My_simulation_network.OBN.output_gate[0].channel per 0
+attr mutable ""
+par My_simulation_network.OBN.output_gate[0].channel alpha 0dB
+attr unit dB
+par My_simulation_network.OBN.output_gate[0].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.OBN.output_gate[0].channel distance 100cm
+attr unit cm
+par My_simulation_network.OBN.output_gate[1].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.OBN.output_gate[1].channel disabled false
+attr mutable ""
+par My_simulation_network.OBN.output_gate[1].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.OBN.output_gate[1].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.OBN.output_gate[1].channel ber 0
+attr mutable ""
+par My_simulation_network.OBN.output_gate[1].channel per 0
+attr mutable ""
+par My_simulation_network.OBN.output_gate[1].channel alpha 0dB
+attr unit dB
+par My_simulation_network.OBN.output_gate[1].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.OBN.output_gate[1].channel distance 90cm
+attr unit cm
+par My_simulation_network.OBN.output_gate[2].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.OBN.output_gate[2].channel disabled false
+attr mutable ""
+par My_simulation_network.OBN.output_gate[2].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.OBN.output_gate[2].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.OBN.output_gate[2].channel ber 0
+attr mutable ""
+par My_simulation_network.OBN.output_gate[2].channel per 0
+attr mutable ""
+par My_simulation_network.OBN.output_gate[2].channel alpha 0dB
+attr unit dB
+par My_simulation_network.OBN.output_gate[2].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.OBN.output_gate[2].channel distance 80cm
+attr unit cm
+par My_simulation_network.Hub_1.output_gate[0].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Hub_1.output_gate[0].channel disabled false
+attr mutable ""
+par My_simulation_network.Hub_1.output_gate[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Hub_1.output_gate[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Hub_1.output_gate[0].channel ber 0
+attr mutable ""
+par My_simulation_network.Hub_1.output_gate[0].channel per 0
+attr mutable ""
+par My_simulation_network.Hub_1.output_gate[0].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Hub_1.output_gate[0].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Hub_1.output_gate[0].channel distance 50cm
+attr unit cm
+par My_simulation_network.Hub_1.output_gate[1].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Hub_1.output_gate[1].channel disabled false
+attr mutable ""
+par My_simulation_network.Hub_1.output_gate[1].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Hub_1.output_gate[1].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Hub_1.output_gate[1].channel ber 0
+attr mutable ""
+par My_simulation_network.Hub_1.output_gate[1].channel per 0
+attr mutable ""
+par My_simulation_network.Hub_1.output_gate[1].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Hub_1.output_gate[1].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Hub_1.output_gate[1].channel distance 40cm
+attr unit cm
+par My_simulation_network.Hub_2.output_gate[0].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Hub_2.output_gate[0].channel disabled false
+attr mutable ""
+par My_simulation_network.Hub_2.output_gate[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Hub_2.output_gate[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Hub_2.output_gate[0].channel ber 0
+attr mutable ""
+par My_simulation_network.Hub_2.output_gate[0].channel per 0
+attr mutable ""
+par My_simulation_network.Hub_2.output_gate[0].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Hub_2.output_gate[0].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Hub_2.output_gate[0].channel distance 70cm
+attr unit cm
+par My_simulation_network.Hub_2.output_gate[1].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Hub_2.output_gate[1].channel disabled false
+attr mutable ""
+par My_simulation_network.Hub_2.output_gate[1].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Hub_2.output_gate[1].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Hub_2.output_gate[1].channel ber 0
+attr mutable ""
+par My_simulation_network.Hub_2.output_gate[1].channel per 0
+attr mutable ""
+par My_simulation_network.Hub_2.output_gate[1].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Hub_2.output_gate[1].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Hub_2.output_gate[1].channel distance 60cm
+attr unit cm
+par My_simulation_network.Hub_3.output_gate[0].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Hub_3.output_gate[0].channel disabled false
+attr mutable ""
+par My_simulation_network.Hub_3.output_gate[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Hub_3.output_gate[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Hub_3.output_gate[0].channel ber 0
+attr mutable ""
+par My_simulation_network.Hub_3.output_gate[0].channel per 0
+attr mutable ""
+par My_simulation_network.Hub_3.output_gate[0].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Hub_3.output_gate[0].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Hub_3.output_gate[0].channel distance 110cm
+attr unit cm
+par My_simulation_network.Hub_3.output_gate[1].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Hub_3.output_gate[1].channel disabled false
+attr mutable ""
+par My_simulation_network.Hub_3.output_gate[1].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Hub_3.output_gate[1].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Hub_3.output_gate[1].channel ber 0
+attr mutable ""
+par My_simulation_network.Hub_3.output_gate[1].channel per 0
+attr mutable ""
+par My_simulation_network.Hub_3.output_gate[1].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Hub_3.output_gate[1].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Hub_3.output_gate[1].channel distance 120cm
+attr unit cm
+par My_simulation_network.Node_11.output_gate[0].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Node_11.output_gate[0].channel disabled false
+attr mutable ""
+par My_simulation_network.Node_11.output_gate[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Node_11.output_gate[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Node_11.output_gate[0].channel ber 0
+attr mutable ""
+par My_simulation_network.Node_11.output_gate[0].channel per 0
+attr mutable ""
+par My_simulation_network.Node_11.output_gate[0].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Node_11.output_gate[0].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Node_11.output_gate[0].channel distance 80cm
+attr unit cm
+par My_simulation_network.Node_12.output_gate[0].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Node_12.output_gate[0].channel disabled false
+attr mutable ""
+par My_simulation_network.Node_12.output_gate[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Node_12.output_gate[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Node_12.output_gate[0].channel ber 0
+attr mutable ""
+par My_simulation_network.Node_12.output_gate[0].channel per 0
+attr mutable ""
+par My_simulation_network.Node_12.output_gate[0].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Node_12.output_gate[0].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Node_12.output_gate[0].channel distance 90cm
+attr unit cm
+par My_simulation_network.Node_21.output_gate[0].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Node_21.output_gate[0].channel disabled false
+attr mutable ""
+par My_simulation_network.Node_21.output_gate[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Node_21.output_gate[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Node_21.output_gate[0].channel ber 0
+attr mutable ""
+par My_simulation_network.Node_21.output_gate[0].channel per 0
+attr mutable ""
+par My_simulation_network.Node_21.output_gate[0].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Node_21.output_gate[0].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Node_21.output_gate[0].channel distance 60cm
+attr unit cm
+par My_simulation_network.Node_22.output_gate[0].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Node_22.output_gate[0].channel disabled false
+attr mutable ""
+par My_simulation_network.Node_22.output_gate[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Node_22.output_gate[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Node_22.output_gate[0].channel ber 0
+attr mutable ""
+par My_simulation_network.Node_22.output_gate[0].channel per 0
+attr mutable ""
+par My_simulation_network.Node_22.output_gate[0].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Node_22.output_gate[0].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Node_22.output_gate[0].channel distance 50cm
+attr unit cm
+par My_simulation_network.Node_31.output_gate[0].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Node_31.output_gate[0].channel disabled false
+attr mutable ""
+par My_simulation_network.Node_31.output_gate[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Node_31.output_gate[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Node_31.output_gate[0].channel ber 0
+attr mutable ""
+par My_simulation_network.Node_31.output_gate[0].channel per 0
+attr mutable ""
+par My_simulation_network.Node_31.output_gate[0].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Node_31.output_gate[0].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Node_31.output_gate[0].channel distance 40cm
+attr unit cm
+par My_simulation_network.Node_32.output_gate[0].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Node_32.output_gate[0].channel disabled false
+attr mutable ""
+par My_simulation_network.Node_32.output_gate[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Node_32.output_gate[0].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Node_32.output_gate[0].channel ber 0
+attr mutable ""
+par My_simulation_network.Node_32.output_gate[0].channel per 0
+attr mutable ""
+par My_simulation_network.Node_32.output_gate[0].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Node_32.output_gate[0].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Node_32.output_gate[0].channel distance 30cm
+attr unit cm
+par My_simulation_network.Hub_1.output_gate[2].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Hub_1.output_gate[2].channel disabled false
+attr mutable ""
+par My_simulation_network.Hub_1.output_gate[2].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Hub_1.output_gate[2].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Hub_1.output_gate[2].channel ber 0
+attr mutable ""
+par My_simulation_network.Hub_1.output_gate[2].channel per 0
+attr mutable ""
+par My_simulation_network.Hub_1.output_gate[2].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Hub_1.output_gate[2].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Hub_1.output_gate[2].channel distance 100cm
+attr unit cm
+par My_simulation_network.Hub_2.output_gate[2].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Hub_2.output_gate[2].channel disabled false
+attr mutable ""
+par My_simulation_network.Hub_2.output_gate[2].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Hub_2.output_gate[2].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Hub_2.output_gate[2].channel ber 0
+attr mutable ""
+par My_simulation_network.Hub_2.output_gate[2].channel per 0
+attr mutable ""
+par My_simulation_network.Hub_2.output_gate[2].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Hub_2.output_gate[2].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Hub_2.output_gate[2].channel distance 90cm
+attr unit cm
+par My_simulation_network.Hub_3.output_gate[2].channel typename "\"my_simulation.simulations.My_simulation_network.RayleighChannel\""
+par My_simulation_network.Hub_3.output_gate[2].channel disabled false
+attr mutable ""
+par My_simulation_network.Hub_3.output_gate[2].channel delay 0.01s
+attr mutable ""
+attr unit s
+par My_simulation_network.Hub_3.output_gate[2].channel datarate 0bps
+attr mutable ""
+attr unit bps
+par My_simulation_network.Hub_3.output_gate[2].channel ber 0
+attr mutable ""
+par My_simulation_network.Hub_3.output_gate[2].channel per 0
+attr mutable ""
+par My_simulation_network.Hub_3.output_gate[2].channel alpha 0dB
+attr unit dB
+par My_simulation_network.Hub_3.output_gate[2].channel systemLoss 0dB
+attr unit dB
+par My_simulation_network.Hub_3.output_gate[2].channel distance 80cm
+attr unit cm
+par My_simulation_network.OBN typename "\"my_simulation.simulations.My_simulation_network.OBN_node\""
+par My_simulation_network.OBN timeSlot 0s
+attr unit s
+par My_simulation_network.OBN initialX 1000
+par My_simulation_network.Hub_1 typename "\"my_simulation.simulations.My_simulation_network.Hub_node1\""
+par My_simulation_network.Hub_1 timeSlot 0s
+attr unit s
+par My_simulation_network.Hub_1 initialX 1000
+par My_simulation_network.Hub_2 typename "\"my_simulation.simulations.My_simulation_network.Hub_node2\""
+par My_simulation_network.Hub_2 timeSlot 0s
+attr unit s
+par My_simulation_network.Hub_2 initialX 1000
+par My_simulation_network.Hub_3 typename "\"my_simulation.simulations.My_simulation_network.Hub_node3\""
+par My_simulation_network.Hub_3 timeSlot 0s
+attr unit s
+par My_simulation_network.Hub_3 initialX 1000
+par My_simulation_network.Node_11 typename "\"my_simulation.simulations.My_simulation_network.node11\""
+par My_simulation_network.Node_11 timeSlot 0s
+attr unit s
+par My_simulation_network.Node_11 initialX 1000
+par My_simulation_network.Node_12 typename "\"my_simulation.simulations.My_simulation_network.node12\""
+par My_simulation_network.Node_12 timeSlot 0s
+attr unit s
+par My_simulation_network.Node_12 initialX 1000
+par My_simulation_network.Node_21 typename "\"my_simulation.simulations.My_simulation_network.node21\""
+par My_simulation_network.Node_21 timeSlot 0s
+attr unit s
+par My_simulation_network.Node_21 initialX 1000
+par My_simulation_network.Node_22 typename "\"my_simulation.simulations.My_simulation_network.node22\""
+par My_simulation_network.Node_22 timeSlot 0s
+attr unit s
+par My_simulation_network.Node_22 initialX 1000
+par My_simulation_network.Node_31 typename "\"my_simulation.simulations.My_simulation_network.node31\""
+par My_simulation_network.Node_31 timeSlot 0s
+attr unit s
+par My_simulation_network.Node_31 initialX 1000
+par My_simulation_network.Node_32 typename "\"my_simulation.simulations.My_simulation_network.node32\""
+par My_simulation_network.Node_32 timeSlot 0s
+attr unit s
+par My_simulation_network.Node_32 initialX 1000
+par My_simulation_network typename "\"my_simulation.simulations.My_simulation_network\""
+
