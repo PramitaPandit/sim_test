@@ -8,7 +8,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <omnetpp.h>
-#include <stdlib.h>
 
 using namespace omnetpp;
 
